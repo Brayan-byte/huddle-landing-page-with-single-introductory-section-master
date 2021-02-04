@@ -1,0 +1,143 @@
+@media  screen and (max-width: 375px){
+  body{
+  background-image: url("../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  }
+  .huddle-logo{
+    width: 35%;
+    margin-top: 40px;
+    margin-right: 180px;
+  }
+  .middle-container{
+    margin-top: 45px;
+    }
+    .chat-image{
+      width: 85%;
+    }
+    .landing-text{
+    position: absolute;
+    margin: auto;
+    }
+    .text{
+      font-size: 17.5px;
+      line-height: 1.7;
+    }
+    .Huddle-text{
+      font-weight: 50;
+      margin: auto;
+    }
+    .landing-text{
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      color: #6648B1;
+      background: white;
+      border: none;
+      border-radius: 20px;
+      padding: .5rem 2rem;
+      margin: 1rem;
+      transition: color .2s;
+      position: absolute;
+      left: 0;
+      top: 0;
+      margin-left: 130px;
+      margin-top: 650px;
+  }
+
+  .footer{
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+  .footer:hover{
+    background-color: #E882E8;
+  }
+}
+@media  screen and (min-width: 376px){
+  body{
+  background-image: url("../images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  }
+  .huddle-logo{
+    width: 14%;
+    margin-top: 50px;
+    margin-right: 1050px;
+  }
+  .middle-container{
+    text-align: left;
+    margin:auto;
+  }
+  .chat-image{
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+  .Build-Community{
+    float:right;
+    margin-bottom: 60px;
+    margin-top: 120px;
+    margin-right: 240px;
+  }
+  .Huddle-text{
+    position: absolute;
+  }
+  .text{
+    float:right;
+    margin-top: 200px;
+  }
+  .landing-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #6648B1;
+    background: white;
+    border: none;
+    border-radius: 20px;
+    padding: .5rem 2rem;
+    margin: 1rem;
+    transition: color .2s;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 320px;
+}
+
+.footer{
+  margin-left: 1050px;
+}
+.footer:hover{
+  background-color: #E882E8;
+}
+}
+
+
+.landing-text:hover{
+  color: white;
+  background: #E882E8;
+}
+
+.logo-icons{
+  width: 35px;
+  height: 35px;
+}
+
+body{
+      margin: 0;
+      background-color: #6648B1;
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+h3{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
